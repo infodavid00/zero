@@ -87,6 +87,17 @@ a {
   border-radius: 5px;
   margin-top: 1em;
   font-size: 15px;
+  width: 100%;
+  overflow: auto;
+}
+.TYRYD::-webkit-scrollbar {
+  width:3px;
+}
+.TYRYD::-webkit-scrollbar-thumb {
+  width:3px;
+}
+.TYRYD::-webkit-scrollbar-track {
+  width:3px;
 }
 
 @media (min-width: 760px) {
