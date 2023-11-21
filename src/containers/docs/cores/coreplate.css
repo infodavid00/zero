@@ -1,0 +1,20 @@
+
+.zero-core-container {
+  width: 100%;
+  padding: 2em 1em;
+  margin-top: 2.5em;
+}
+
+@media (min-width:760px) {
+.zero-core-container {
+  padding: 2em 10em;
+}
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: dodgerblue;
+}
